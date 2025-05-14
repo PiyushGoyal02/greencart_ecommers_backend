@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 4000
 
 // CORS Options
 const corsOptions = {
-  origin: "http://localhost:3000", 
-  methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
+  origin: "https://greencart-ecommers-frontend.onrender.com",
+  methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
   credentials: true
 };
 
