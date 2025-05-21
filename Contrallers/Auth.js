@@ -53,6 +53,7 @@ exports.Signup = async (req, res) => {
       id: newUser._id,
       email: newUser.email,
       accountType: newUser.accountType,
+      address: UserModel.address
     };
 
     const token = JWT.sign(payload, process.env.JWT_SECRET, {
